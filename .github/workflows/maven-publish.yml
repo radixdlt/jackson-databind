@@ -4,6 +4,8 @@
 name: Maven Package
 
 on:
+  push:
+    branches: [ feature/strict-property-ordering-downgraded-version ]
   release:
     types: [created]
 
